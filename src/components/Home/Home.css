@@ -1,0 +1,94 @@
+.main-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 1px 1px 2px 1px;
+}
+
+.welcome-user {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-search-order {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--purple);
+}
+
+.search-order {
+  border: 0;
+  outline: 0;
+  height: 36px;
+  font-size: 1.2em;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.container-orders-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-order {
+  padding: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: var(--card-order-background);
+}
+
+.card-order:hover {
+  transform: scale(1.1);
+  border: 2px solid var(--purple);
+  box-shadow: 2px 2px 2px 2px var(--purple);
+}
+
+.container-date-status {
+  margin-top: 30px;
+  padding-top: 10px;
+  line-height: 40px;
+  padding-bottom: 10px;
+  border-top: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+
+.price {
+  margin-top: 25px;
+  text-align: center;
+  color: var(--green);
+}
+
+.see-all {
+  margin-top: 40px;
+  text-align: center;
+  color: var(--see-all-btn-txt);
+}
+
+/* Responsive form field, search order */
+
+@media (max-width: 960px) {
+  .container-search-order {
+    width: 90%;
+  }
+
+  .search-order {
+    font-size: 1em;
+    margin-right: 2px;
+  }
+}

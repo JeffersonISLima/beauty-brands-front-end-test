@@ -1,0 +1,21 @@
+.navbar-container {
+  height: 50px;
+  display: flex;
+  font-size: 1.2em;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-blue);
+  background-color: var(--background);
+}
+
+.btn-logoff {
+  right: 5%;
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.btn-logoff:hover {
+  transform: scaleX(1.1);
+}

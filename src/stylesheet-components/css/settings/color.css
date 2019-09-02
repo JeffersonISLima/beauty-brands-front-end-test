@@ -1,0 +1,19 @@
+:root {
+  --red: red;
+  --gray: gray;
+  --black: #000;
+  --white: #fff;
+  --green: green;
+  --yellow: yellow;
+  --purple: purple;
+  --border-red: red;
+  --background: #ffb506;
+  --main-blue: rgb(27, 65, 60);
+  --background-button: #fbc5c5;
+  --see-all-btn-txt: orangered;
+  --container-status: #5bd2f64b;
+  --background-box-login: #a6b38c;
+  --message-user-existent: rgb(255, 128, 128);
+  --card-order-background: rgb(231, 230, 230);
+  --container-background-pink: rgba(255, 68, 0, 0.253);
+}

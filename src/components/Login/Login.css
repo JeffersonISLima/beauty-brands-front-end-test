@@ -1,0 +1,63 @@
+.background-image {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("./images/background-image.png");
+}
+
+.container-login {
+  width: 40%;
+  min-height: 30vh;
+  opacity: 0.7;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 50px 2px var(--black);
+  background-color: var(--background-box-login);
+}
+
+.container-login h1 {
+  font-size: 2.1em;
+  padding-top: 40px;
+}
+
+.input-field {
+  height: 40px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-container {
+  width: 60%;
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+
+.btn-signin {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px var(--black);
+  background-color: var(--background-button);
+}
+
+.btn-disabled {
+  border-radius: 5px;
+}
+
+.message-user-existent {
+  top: 80%;
+  opacity: 0.9;
+  padding: 20px;
+  font-size: 1.3em;
+  font-weight: 900;
+  border-radius: 5px;
+  position: absolute;
+  border: 5px solid var(--border-red);
+  background-color: var(--message-user-existent);
+}
